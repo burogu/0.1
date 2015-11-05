@@ -1,14 +1,14 @@
 @font-face {
-	font-family: 'Ubuntu';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Ubuntu'), url(https://fonts.gstatic.com/s/ubuntu/v8/_xyN3apAT_yRRDeqB3sPRg.woff) format('woff');
-}
-@font-face {
 	font-family: 'Open Sans';
 	font-style: normal;
 	font-weight: 300;
 	src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
 }
 ::-webkit-selection {
 	background: rgba(68, 68, 68, .9);
@@ -41,7 +41,7 @@ html {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-	font-family: 'Ubuntu';
+	font-family: 'Raleway';
 	font-size: 1.5em;
 	background: #f0f0f0;
 	color: #515151;
