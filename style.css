@@ -80,7 +80,6 @@ ul ul, ol ul, ul ol, ol ol {
 	margin-bottom: 0;
 }
 /* Blg */
-#layout #null{display:none}
 .post-snippet:before {
   content: attr(data-snippet);
 }
