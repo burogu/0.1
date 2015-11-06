@@ -40,6 +40,9 @@ ul, ol { margin-top: 0; margin-bottom: 10px; }
 
 ul ul, ol ul, ul ol, ol ol { margin-bottom: 0; }
 
+/* Wdh */
+.section:before, .section:after, .widget:before, .widget:after, .post:before, .post:after, .foot:before, .foot:after { clear: both; display: table; content: "" }
+
 .section { position: relative; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto }
 
 @media (min-width:768px) {
@@ -58,5 +61,7 @@ ul ul, ol ul, ul ol, ol ol { margin-bottom: 0; }
 
 /* Blg */
 .post-snippet:before { content: attr(data-snippet) }
+
+.post { background: #fff; padding: 10px 25px 25px; margin-top: 25px; -webkit-box-shadow: 0 0 2px rgba(0,0,0,.2); -moz-box-shadow: 0 0 2px rgba(0,0,0,.2); box-shadow: 0 0 2px rgba(0,0,0,.2) }
 
 .post-title a { color: #313131 }
