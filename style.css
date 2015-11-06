@@ -1,67 +1,62 @@
 @font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 300; src: url('https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXZ2MAKAc2x4R1uOSeegc5U.eot'); src: local('Open Sans Light'), local('OpenSans-Light'), url('https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXZ2MAKAc2x4R1uOSeegc5U.eot?#iefix') format('embedded-opentype'), url('https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff') format('woff'), url('https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2') format('woff2'), url('https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTZS3E-kSBmtLoNJPDtbj2Pk.ttf') format('truetype') }
+
 @font-face { font-family: 'Raleway'; font-style: normal; font-weight: 400; src: url('https://fonts.gstatic.com/s/raleway/v9/JDau3G46nqY5-B-S9E_nwg.eot'); src: local('Raleway'), url('https://fonts.gstatic.com/s/raleway/v9/JDau3G46nqY5-B-S9E_nwg.eot?#iefix') format('embedded-opentype'), url('https://fonts.gstatic.com/s/raleway/v9/IczWvq5y_Cwwv_rBjOtT0w.woff') format('woff'), url('https://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2') format('woff2'), url('https://fonts.gstatic.com/s/raleway/v9/UAnF6lSK1JNc1tqTiG8pNALUuEpTyoUstqEm5AMlJo4.ttf') format('truetype') }
+
 ::-webkit-selection { background: rgba(68, 68, 68, .9); color: #eee }
+
 ::-moz-selection { background: rgba(68, 68, 68, .9); color: #eee }
+
 ::selection { background: rgba(68, 68, 68, .9); color: #eee }
-*, *:before, *:after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-html, body {
-	margin: 0;
-	padding: 0;
-}
-html {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 62.5%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-body {
-	font-family: 'Raleway';
-	font-weight: normal;
-	font-size: 1.5em;
-	line-height: 1.5;
-	background: #f0f0f0;
-	color: #515151;
-}
-a, a:hover {
-	color: #268bd2;
-	text-decoration: none;
-}
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-	font-family: 'Open Sans';
-	font-weight: 300;
-	line-height: 1.1;
-	color: #313131;
-	text-rendering: optimizeLegibility;
-	margin-top: 15px;
-	margin-bottom: 10px;
-}
+
+*, *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+html { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 62.5%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+body { font-family: 'Raleway'; font-weight: normal; font-size: 1.5em; line-height: 1.5; background: #f0f0f0; color: #515151; }
+
+a, a:hover { color: #268bd2; text-decoration: none; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { font-family: 'Open Sans'; font-weight: 300; line-height: 1.1; color: #313131; text-rendering: optimizeLegibility; margin-top: 15px; margin-bottom: 10px; }
+
 h1, .h1 { font-size: 3.4em; }
+
 h2, .h2 { font-size: 3.0em; }
+
 h3, .h3 { font-size: 2.6em; }
+
 h4, .h4 { font-size: 2.2em; }
+
 h5, .h5 { font-size: 1.8em; }
+
 h6, .h6 { font-size: 1.6em; }
-p {
-	margin-top: 0;
-	margin-bottom: 10px;
+
+p { margin-top: 0; margin-bottom: 10px; }
+
+b, strong { color: #303030; }
+
+ul, ol { margin-top: 0; margin-bottom: 10px; }
+
+ul ul, ol ul, ul ol, ol ol { margin-bottom: 0; }
+
+.wrapper { position: relative; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto }
+
+@media (min-width:768px) {
+  .wrapper { width: 750px }
 }
-b, strong {
-	color: #303030;
+
+@media (min-width:992px) {
+  .wrapper { width: 970px }
 }
-ul, ol {
-	margin-top: 0;
-	margin-bottom: 10px;
-}
-ul ul, ol ul, ul ol, ol ol {
-	margin-bottom: 0;
-}
+
+.sidebar, .main { position: relative; min-height: 1px; float: left; }
+
+.sidebar { width: 29.1667%; *width: 29.1357%; margin-right: -100%; }
+
+.main { width: 70.8333%; *width: 70.8023%; display: block; margin-left: 29.1667%; }
+
 /* Blg */
-.post-snippet:before {
-  content: attr(data-snippet);
-}
+.post-snippet:before { content: attr(data-snippet) }
+
 .post-title a { color: #313131 }
