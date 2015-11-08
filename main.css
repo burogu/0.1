@@ -30,7 +30,7 @@ h5,.h5{font-size:1.7em}
 h6,.h6{font-size:1.4em}
 p{margin:0 0 10px}
 
-.clr:before,.clr:after,.widget:before,.widget:after{clear:both;display:table;content:""}
+.clr:before,.clr:after,.widget:before,.widget:after,.section:before,.section:after{clear:both;display:table;content:""}
 .clear{clear:both}
 
 .wrapper{position:relative;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
