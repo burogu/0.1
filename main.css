@@ -30,6 +30,9 @@ h5,.h5{font-size:1.7em}
 h6,.h6{font-size:1.4em}
 p{margin:0 0 10px}
 
+.clr:before,.clr:after{clear:both;display:table;content:""}
+.clear{clear:both}
+
 .wrapper{position:relative;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}
 @media (min-width:768px){
   .wrapper{width:750px}
@@ -37,6 +40,10 @@ p{margin:0 0 10px}
 @media (min-width:992px){
   .wrapper{width:970px}
 }
+
+.sidebar,.main{position:relative;min-height:1px;float:left}
+.sidebar{width:29.1667%;margin-right:-100%}
+.main{width:70.8333%;margin-left:29.1667%;display:block}
 
 /* Blg */
 .post-snippet:before{content:attr(data-snippet)}
