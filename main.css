@@ -51,3 +51,5 @@ p{margin:0 0 10px}
 
 /* Blg */
 .post-snippet:before{content:attr(data-snippet)}
+
+.post-title a{color:#313131}.post-title a:hover{color:#db6b71}
